@@ -1,0 +1,12 @@
+*.tflite filter=lfs diff=lfs merge=lfs -text
+*.blob filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Managing pickle files with Git LFS
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+
+# Managing PyTorch model files with Git LFS
+*.pt* filter=lfs diff=lfs merge=lfs -text
